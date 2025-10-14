@@ -1,3 +1,4 @@
+require 'bcrypt'
 class TopController < ApplicationController
   # main: ログイン状態によって表示切替
   def main
